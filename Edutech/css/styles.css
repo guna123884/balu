@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+hr{
+  width: 50px;
+  border-top: 0;
+  border-bottom:  10px dotted grey;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  color:black;
+}
+
+
+
+.navbar-brand:link,
+.navbar-brand:visited
+ {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none!important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  text-decoration: none;
+  color:black;
+}
+.nav-section{
+  padding: 30px;
+}
+
+/* button */
+.btn {
+  color: #fff;
+  background-color: red;
+  margin: 5% 3% 5% 0;
+}
+.nav-image{
+  height: 300px;
+  width: 300px;
+}
+.nav-footer-img{
+  height: 120px;
+  width: 120px;
+}
+.side{
+  display: flex;
+  align-items: center;
+  background-color: #f8f1f1;
+  border-radius: 40px;
+  margin-bottom: 2rem;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.side p{
+  padding:1rem 2rem;
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  flex-direction: column;
+  color:black;
+}
+span{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+@media (max-width:768px){
+  .flex{
+    justify-content: center;
+  }
+}
+.icon{
+  margin: 0 10px;
+}
+/* carseoul section */
+
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* sunject section */
+
+.sub-image{
+  padding: 5px;
+  border: 1px solid;
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+  margin-left: 30px;
+}
+.sub{
+  padding: 20px;
+  color: red;
+  margin-left: 90%;
+}
+
+/* book section */
+
+/* stateboards sectiom */
+.state-board{
+  margin: 50px 0;
+}
+/* teachers section */
+
+.teacher{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.balu{
+  border: 1px solid;
+  height: 50px;
+  width: 150px;
+  margin-left: 30px;
+}
+.balu h3{
+  margin-left: 30px;
+  
+}
+.heading{
+  font-size: 1rem;
+}
+.first{
+  padding: 50px;
+}
+.second{
+  padding: 30px;
+  margin-left: 400px;
+}
+
+/* last section */
+
+.last-section{
+  padding: 60px;
+}
+.last-div{
+  padding: 50px;
+}
+.last-cell{
+  margin-top: 40px;
+
+}
+.carousel-control-next-icon{
+  /* background-color: red; */
+  fill:red;
+}
